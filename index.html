@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MOVIES</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <div id="movie-form">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">MOVIES</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="jumbotron">
+                <h3 class="text-center">Search for movies:</h3>
+                <form id="searchForm">
+                    <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+                    <br/>
+                    <input type="submit" class="btn btn-success" value="Search">
+                    <div class="btn-group">
+                            <a href='#' id="list" class="btn btn-default btn-sm"><i class="fa fa-bars"></i> List</a>
+                            <a href='#' id="grid" class="btn btn-default btn-sm"><i class="fa fa-th-large"></i> Grid</a>
+                        </div>
+                </form>
+
+                
+            </div>
+        </div>
+
+        
+
+        <div class="container">
+            <div id="movie-details" class="row">
+            </div>
+            <br/>
+        </div>
+
+        <div class="container">
+            <div id="movies" class="row"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>

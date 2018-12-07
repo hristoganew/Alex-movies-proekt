@@ -1,0 +1,139 @@
+#movies img, #movie img{
+    width:100%;
+  }
+  
+  @media(min-width:960px){
+    #movies .col-md-3 .well{
+      height: 390px;
+    }
+  
+    #movies .col-md-3 img{
+      height:240px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+      .booking-form .booking-bg {
+          position: relative;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          top: -15px;
+          width: 95%;
+          margin: auto;
+      }
+      .booking-form>form {
+          margin-left: 0px;
+      }
+  }
+  
+  #list {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      margin-left: 30px;
+      background-color: #f1f1f1;
+      cursor: pointer;
+  }
+  
+  #list :hover {
+      background-color: #ddd;
+  }
+  
+  #list .active {
+      background-color: #666;
+      color: white;
+  }
+  
+  
+  #grid {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      margin-left: 10px;
+      background-color: #f1f1f1;
+      cursor: pointer;
+  }
+  
+  #grid :hover {
+      background-color: #ddd;
+  }
+  
+  #grid .active {
+      background-color: #666;
+      color: white;
+  }
+  .movie-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(133, 104, 73, 0.33);
+    padding: 10px;
+  
+  }
+  .item {
+    background-color: rgb(255, 255, 255); 
+  
+    border-radius: 10px;
+    border-style: outset;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  
+  }
+  
+  .btn-group{
+      color: #fff;
+      
+  }
+  
+  .item.list-group-item
+  {
+      float: none;
+      width: 100%;
+      background-color: rgba(133, 104, 73, 0.33);
+      margin-bottom: 10px;
+  }
+  .item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+  {
+      background: #428bca;
+  }
+  
+  .item.list-group-item .list-group-image
+  {
+      margin-right: 10px;
+  }
+  .item.list-group-item .thumbnail
+  {
+      margin-bottom: 0px;
+  }
+  .item.list-group-item .caption
+  {
+      padding: 9px 9px 0px 9px;
+  }
+  .item.list-group-item:nth-of-type(odd)
+  {
+      background: #eeeeee;
+  }
+  
+  .item.list-group-item:before, .item.list-group-item:after
+  {
+      display: table;
+      content: " ";
+  }
+  
+  .item.list-group-item img
+  {
+      float: left;
+  }
+  .item.list-group-item:after
+  {
+      clear: both;
+  }
+  .list-group-item-text
+  {
+      margin: 0 0 11px;
+  }
+  
+  
+  
+  
