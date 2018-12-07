@@ -2,6 +2,7 @@ $(document).ready(() => {
     $('#searchForm').on('submit', (e) => {
         let searchText = $('#searchText').val();
         getMovies(searchText);
+        return false;
     });
 
     $('#list').click(function (event) {
